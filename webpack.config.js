@@ -58,7 +58,11 @@ module.exports = {
         {
           from: PATHS.app + "/lib",
           to: "lib"
-        }
+        },
+        {
+          from: PATHS.app + "/images",
+          to: "images"
+        },
 
         ])
       ],

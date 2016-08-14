@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui",
+  "name": "semantic-uis",
   "version": "1.0.0",
   "description": "Semantic Ui for Redux with React and Babel support",
   "main": "index.js",
@@ -45,6 +45,7 @@
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
     "redux-promise": "^0.5.3",
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "semantic-ui": "^2.2.2"
   }
 }

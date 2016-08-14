@@ -1,15 +1,19 @@
 import React from "react";
 //import  {connect } from "react-redux";
 //import {bindActionCreators} from "redux";
-//import { Link } from "react-router";
-//import Header from './header';
+import { Link } from "react-router";
+import Header from './header';
+import Sidebar from './sidebar';
 //import Footer from './footer';
 //import MainContent from './mainContent';
 
 class Home extends React.Component {
-  render(){
-    return(
-        <h1> This is HOME </h1>
+  render() {
+    return (
+      <div>      
+        <Sidebar />
+        {/*<Header />*/}     
+      </div>
     );
   }
 }
