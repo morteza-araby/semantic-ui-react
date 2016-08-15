@@ -5,10 +5,12 @@ import Footer from './footer';
 
 export default class App extends Component {
   render() {
-    return (      
+    return (
       <div>
         <Header/>
-        {this.props.children}
+        <div id="content">
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     );

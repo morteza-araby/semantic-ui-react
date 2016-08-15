@@ -60,6 +60,31 @@ body{
     line-height: 180%;
 }
 
+/*HomePage*/
+#content {
+    padding:20px;
+}
+#homethree .column {
+    text-align: center;
+}
+
+#homethree p {
+    line-height: 180%;
+    color: #666;
+}
+
+#homethree img{
+    margin: 0 auto;
+}
+
+#homethree .ui.reveal{
+    display: inline-block;
+}
+
+#center {
+    margin-top: 20px;
+    margin: 0 auto;
+}
 @media all and (max-width: 630px){
     #menu{
         display: none;
