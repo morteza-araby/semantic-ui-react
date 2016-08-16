@@ -11,15 +11,15 @@ const MenuItems = (props) => {
             <Link className="item" to={'/contact'}>
                 <i className="mail icon"></i>
                 Messages
-            </Link>
-            <a className="item">
-                <i className="user icon"></i>
-                Friends
-            </a>
+            </Link>           
             <a className="item">
                 <i className="archive icon"></i>
                 Portfolio
             </a>
+             <Link className="item" to={'/about'}>
+                <i className="user icon"></i>
+                About
+            </Link>
         </div>
     );
 }

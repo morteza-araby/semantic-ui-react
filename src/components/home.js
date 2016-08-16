@@ -5,6 +5,7 @@ import { Link } from "react-router";
 //import Header from './header';
 import Sidebar from './sidebar';
 import HomePage from './home-page';
+import About from './about';
 //import Footer from './footer';
 //import MainContent from './mainContent';
 
@@ -14,7 +15,7 @@ class Home extends React.Component {
       <div>      
         <Sidebar />
         <HomePage />
-        {/*<Header />*/}     
+        {/*<Header />*/}   
       </div>
     );
   }

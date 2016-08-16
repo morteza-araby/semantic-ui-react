@@ -97,6 +97,36 @@ body{
     }
 }
 
+/*About page*/
+#about p{
+    line-height: 180%;
+    color: #666;
+}
+#about h2{
+    color: #ccc;
+}
+div.breadcrumb a{
+    text-decoration: none;
+    color: #777;
+}
+div.breadcrumb a:hover{
+  color:orange;  
+}
+
+div.ui.breadcrumb .active.section{
+    font-weight: normal;
+    color: #ccc;   
+}
+
+div.ui.breadcrumb{
+    display: block;
+}
+#comment{
+    max-width: 100% !important;
+}
+
+
+
 @media all and (min-width: 631px){
    html body.pushable{
        margin-left: 0 !important;
